@@ -1,6 +1,6 @@
 # 🔐 Michael Anggi .G.A.
 
-**Cybersecurity Researcher | Reverse Engineering | Binary Exploitation | Malware Analysis**
+**Cybersecurity Researcher | Reverse Engineering | Binary Analysis & Exploitation | Malware Analysis**
 
 ---
 
