@@ -67,7 +67,7 @@ A structured lab series focusing on binary analysis and logic reconstruction.
 * Algorithmic verification analysis
 * Binary patching and execution flow modification
 * XOR-based data decoding
-* DLL hijacking and execution control
+* Flow Control Manipulaton (Real Production Software : Notepad++)
 
 ---
 
@@ -82,7 +82,7 @@ Hands-on exploitation scenarios targeting memory corruption vulnerabilities.
 * Stack Buffer Overflow → RIP control (ret2win)
 * Canary bypass via format string leak
 * ret2libc exploitation with ASLR bypass
-* Format string exploitation → memory disclosure (PIE bypass)
+* Format string exploitation → memory disclosure (PIE bypass) (From web application using Burp Suite)
 
 ---
 
