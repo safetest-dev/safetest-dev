@@ -1,16 +1,27 @@
-# 🔐 Michael Anggi .G.A.
+# 🔐 Michael Anggi G.A.
 
-**Cybersecurity Researcher | Reverse Engineering | Binary Analysis | Malware Analysis**
+**Cybersecurity Researcher | Reverse Engineering | Binary Exploitation | Malware Analysis**
 
 ---
 
 ## 🧠 Profile
 
-Cybersecurity researcher specializing in low-level system analysis, binary exploitation, and malware reverse engineering.
+Cybersecurity researcher specializing in **low-level system analysis, binary exploitation, and malware reverse engineering**.
 
-This portfolio represents a structured progression of hands-on labs simulating real-world vulnerabilities and adversarial behavior — from memory corruption exploitation to full C2 malware reconstruction.
+This portfolio demonstrates a **structured, hands-on progression of offensive security capabilities**, covering:
 
-With 10+ years of engineering experience in the oil & gas industry, I bring a strong foundation in analytical thinking, system modeling, and high-stakes problem solving into cybersecurity.
+* **Reverse engineering of real binaries**
+* **Memory corruption exploitation**
+* **Malware behavior reconstruction**
+* **Control flow manipulation on real-world software**
+
+With **10+ years of engineering experience in the oil & gas industry**, I bring:
+
+* **Strong analytical thinking**
+* **System-level modeling mindset**
+* **Experience working in high-risk, high-impact environments**
+
+into cybersecurity practice.
 
 ---
 
@@ -18,37 +29,37 @@ With 10+ years of engineering experience in the oil & gas industry, I bring a st
 
 ### 🧠 Reverse Engineering
 
-* Static and dynamic analysis of ELF binaries using radare2
-* Control flow analysis, function reconstruction, and logic tracing
-* Pseudo-code decompilation using r2ghidra
-* Binary behavior modeling and validation
+* Static & dynamic analysis of ELF binaries using **radare2**
+* **Control flow reconstruction** and execution tracing
+* Pseudo-code decompilation via **r2ghidra**
+* Binary logic validation & behavioral modeling
 
 ---
 
 ### 🔐 Binary Analysis & Exploitation
 
-* Stack buffer overflow (ret2win, ret2libc, ROP chains)
-* Stack canary bypass via format string vulnerabilities
-* ASLR, NX, and PIE bypass through information disclosure
-* Exploit development using Python (pwntools)
+* **Stack buffer overflow exploitation** (ret2win, ret2libc, ROP chains)
+* **Stack canary bypass** via format string vulnerabilities
+* **ASLR, NX, PIE bypass** using information disclosure
+* Exploit development using **Python (pwntools)**
 
 ---
 
 ### 🦠 Malware Analysis
 
-* Full behavioral reconstruction of ELF malware samples
-* C2 communication analysis (AES-128-CBC, Base64, HTTP exfiltration)
+* Full **behavioral reconstruction of ELF malware**
+* **C2 communication analysis** (AES-128-CBC, Base64, HTTP)
 * Credential harvesting & system reconnaissance techniques
-* YARA rule development and IoC extraction
+* **YARA rule creation** and IoC extraction
 
 ---
 
 ## 🧩 Research Domains
 
-* Memory Corruption & Control Flow Hijacking
-* Mitigation Bypass Techniques
-* Command & Control (C2) Infrastructure
-* Low-Level System Behavior Analysis
+* **Memory Corruption & Control Flow Hijacking**
+* **Mitigation Bypass Techniques**
+* **Command & Control (C2) Analysis**
+* **Low-Level System Behavior**
 
 ---
 
@@ -58,16 +69,16 @@ With 10+ years of engineering experience in the oil & gas industry, I bring a st
 
 📂 https://github.com/safetest-dev/01_Reverse_Engineering
 
-A structured lab series focusing on binary analysis and logic reconstruction.
+Structured lab series focusing on **binary analysis and execution flow understanding**.
 
-**Key Work:**
+**Highlighted Work:**
 
-* Secure Boot validation bypass
+* Secure boot validation bypass
 * Encoded authentication reversal
 * Algorithmic verification analysis
-* Binary patching and execution flow modification
 * XOR-based data decoding
-* Flow Control Manipulaton (Real Production Software : Notepad++)
+* **Control flow manipulation on real-world software (Notepad++ installer)**
+  → Demonstrates **limitations of single-point integrity checks under binary patching**
 
 ---
 
@@ -75,14 +86,15 @@ A structured lab series focusing on binary analysis and logic reconstruction.
 
 📂 https://github.com/safetest-dev/02_Binary_Exploitation
 
-Hands-on exploitation scenarios targeting memory corruption vulnerabilities.
+Hands-on exploitation scenarios targeting **memory corruption vulnerabilities**.
 
-**Key Work:**
+**Highlighted Work:**
 
-* Stack Buffer Overflow → RIP control (ret2win)
-* Canary bypass via format string leak
-* ret2libc exploitation with ASLR bypass
-* Format string exploitation → memory disclosure (PIE bypass) (From web application using Burp Suite)
+* Stack Buffer Overflow → **RIP control (ret2win)**
+* Canary bypass via **format string leak**
+* ret2libc exploitation with **ASLR bypass**
+* Format string exploitation → **memory disclosure (PIE bypass)**
+  *(including web-based vector using Burp Suite)*
 
 ---
 
@@ -90,18 +102,20 @@ Hands-on exploitation scenarios targeting memory corruption vulnerabilities.
 
 📂 https://github.com/safetest-dev/03_Malware_Analysis
 
-Analysis of real-world inspired Linux malware samples.
+Analysis of **real-world inspired Linux malware samples**, focusing on behavior and detection.
 
-**Key Work:**
+**Highlighted Work:**
 
-* Disk exhaustion malware (file I/O abuse, anti-debugging)
-* C2 telemetry agent (AES + Base64 + HTTP beaconing)
-* Recon & credential exfiltration malware
+* Disk exhaustion malware (**file I/O abuse + anti-debugging**)
+* C2 telemetry agent:
 
-  * system fingerprinting (uname)
+  * AES + Base64 encoding
+  * HTTP beaconing
+* Credential & system data exfiltration:
+
+  * system fingerprinting (`uname`)
   * environment harvesting
   * bash history extraction
-  * hardcoded credential injection
 
 ---
 
@@ -111,8 +125,8 @@ My approach to security research:
 
 1. **Static Analysis** → binary structure, strings, function mapping
 2. **Dynamic Analysis** → runtime behavior, syscall tracing
-3. **Vulnerability Identification** → root cause analysis
-4. **Exploitation / Reconstruction** → proof of concept
+3. **Root Cause Analysis** → vulnerability identification
+4. **Exploitation / Reconstruction** → proof-of-concept development
 5. **Detection & Defense** → IoC extraction, YARA rules
 
 ---
@@ -131,25 +145,25 @@ My approach to security research:
 
 ## 🎯 Career Direction
 
-Actively transitioning into cybersecurity roles:
+Currently transitioning into cybersecurity roles with focus on:
 
-* Malware Analyst
-* Security Researcher
-* Reverse Engineer
-* SOC Analyst
+* **Reverse Engineer**
+* **Security Researcher**
+* **Malware Analyst**
+* **Offensive Security Engineer**
 
 ---
 
 ## 🌍 Availability
 
-* Open to remote opportunities
-* Open to contract / freelance / full-time
+* Open to **remote opportunities**
+* Open to **contract / freelance / full-time roles**
 
 ---
 
 ## 📫 Contact
 
 * GitHub: https://github.com/safetest-dev
-* Email: safetestmail@proton.me
+* Email: [safetestmail@proton.me](mailto:safetestmail@proton.me)
 
 ---
