@@ -1,19 +1,20 @@
 # 🔐 Michael Anggi G.A.
 
-**Cybersecurity Researcher | Reverse Engineering | Binary Analysis | Malware Analysis | SOC**
+**Cybersecurity Researcher | Reverse Engineering | Binary Analysis | Malware Analysis | SOC / Blue Team**
 
 ---
 
 ## 🧠 Profile
 
-Cybersecurity researcher specializing in **low-level system analysis, binary exploitation, and malware reverse engineering**.
+Cybersecurity researcher specializing in **low-level system analysis, binary exploitation, and malware reverse engineering**, with a growing focus on **SOC operations and detection engineering**.
 
-This portfolio demonstrates a **structured, hands-on progression of offensive security capabilities**, covering:
+This portfolio demonstrates a **structured, hands-on progression of offensive *and* defensive security capabilities**, covering:
 
 * **Reverse engineering of real binaries**
 * **Memory corruption exploitation**
 * **Malware behavior reconstruction**
 * **Control flow manipulation on real-world software**
+* **SIEM-based threat detection, alert triage, and incident response**
 
 With **10+ years of engineering experience in the oil & gas industry**, I bring:
 
@@ -54,12 +55,25 @@ into cybersecurity practice.
 
 ---
 
+### 🛡️ SOC / Blue Team
+
+* **SIEM-based detection & threat hunting** with **Wazuh**
+* **Alert triage and severity escalation analysis** (rule correlation, level scoring)
+* **Log decoding & evidence extraction** from raw `sshd` / `journald` sources
+* **MITRE ATT&CK mapping** of observed activity (Credential Access, Lateral Movement)
+* **Compliance-aware reporting** (PCI-DSS, HIPAA, NIST 800-53, GDPR, TSC)
+* **Incident response & containment** recommendations (IOC blocking, hardening, hunting pivots)
+
+---
+
 ## 🧩 Research Domains
 
 * **Memory Corruption & Control Flow Hijacking**
 * **Mitigation Bypass Techniques**
 * **Command & Control (C2) Analysis**
 * **Low-Level System Behavior**
+* **Threat Detection & Security Monitoring**
+* **Credential-Access & Brute-Force Detection**
 
 ---
 
@@ -119,6 +133,23 @@ Analysis of **real-world inspired Linux malware samples**, focusing on behavior 
 
 ---
 
+### 🛡️ SOC / Blue Team
+
+📂 https://github.com/safetest-dev/04_SOC
+
+Defensive lab series focusing on **detection engineering, alert triage, and incident response** using a Wazuh SIEM stack.
+
+**Highlighted Work:**
+
+* **SOC-01 — SSH Invalid-User / Brute-Force Detection**
+  → Detected and triaged an SSH credential-access attempt against a monitored Linux host
+  → Correlated low-severity invalid-user events (rule 5710) into a level-10 brute-force escalation (rule 2502)
+  → Decoded raw `sshd-session` logs to extract attacker IP and target username as evidence
+  → Mapped to **MITRE ATT&CK T1110.001 (Password Guessing)** and **T1021.004 (SSH)**
+  → Produced containment and hardening recommendations (IP blocking, key-based auth, exposure reduction)
+
+---
+
 ## 🔬 Methodology
 
 My approach to security research:
@@ -127,7 +158,8 @@ My approach to security research:
 2. **Dynamic Analysis** → runtime behavior, syscall tracing
 3. **Root Cause Analysis** → vulnerability identification
 4. **Exploitation / Reconstruction** → proof-of-concept development
-5. **Detection & Defense** → IoC extraction, YARA rules
+5. **Detection & Defense** → SIEM detection, alert triage, IoC extraction, YARA rules
+6. **Incident Response** → containment, hardening, and threat-hunting follow-up
 
 ---
 
@@ -139,6 +171,8 @@ My approach to security research:
 * Python
 * strace, ltrace
 * YARA
+* **Wazuh (SIEM / XDR)** — detection, threat hunting, alert triage
+* **MITRE ATT&CK** — adversary technique mapping
 * Linux (Arch / BlackArch)
 
 ---
@@ -151,6 +185,7 @@ Currently transitioning into cybersecurity roles with focus on:
 * **Security Researcher**
 * **Malware Analyst**
 * **Offensive Security Engineer**
+* **SOC Analyst / Detection Engineer (Blue Team)**
 
 ---
 
