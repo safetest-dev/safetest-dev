@@ -1,6 +1,6 @@
 # 🔐 Michael Anggi G.A.
 
-**Cybersecurity Researcher | Reverse Engineering | Binary Analysis | Malware Analysis | SOC / Blue Team**
+**Programming | Software/Firmware Security | Reverse Engineering | Binary Analysis | Malware Analysis | SOC**
 
 ---
 
