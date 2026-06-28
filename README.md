@@ -6,7 +6,7 @@
 
 ## 🧠 Profile
 
-Cybersecurity researcher specializing in **low-level system analysis, binary exploitation, and malware reverse engineering**, with a growing focus on **SOC operations and detection engineering**.
+Computer and Network researcher specializing in **low-level system analysis, binary exploitation, and malware reverse engineering**, with a growing focus on **SOC operations and detection engineering**.
 
 This portfolio demonstrates a **structured, hands-on progression of offensive *and* defensive security capabilities**, covering:
 
